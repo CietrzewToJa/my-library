@@ -22,13 +22,7 @@ body {
     margin-bottom: 8px;
 }
 
-/*.row::after {*/
-/*    content: "";*/
-/*    clear: both;*/
-/*    display: table;*/
-/*}*/
-
-input[type = text] {
+nav input[type = text] {
     border: 2px solid lightgray;
     border-right: none;
     border-bottom-right-radius: 0;
@@ -68,16 +62,6 @@ nav {
     padding: 13px 0px 13px 0px;
 }
 
-/*.container {*/
-/*    margin: auto;*/
-/*}*/
-
-/*.container-content {*/
-/*    width: 80%;*/
-/*    padding-bottom: 30px;*/
-/*    margin-bottom: 30px;*/
-/*}*/
-
 h2 {
     font-weight: 600;
     font-size: 30px;
@@ -103,7 +87,7 @@ h3 {
 section {
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid lightgray;
+    /*border-bottom: 1px solid lightgray;*/
 }
 
 .border-bottom {
@@ -111,51 +95,53 @@ section {
     border-bottom: 1px solid lightgray;
 }
 
-@media only screen and (min-width: 576px) {
-    /*nav .container {*/
-    /*    width: 90%;*/
-    /*}*/
+.books {
+    display: none;
+}
 
-    /*.container-content {*/
-    /*    width: 70%;*/
-    /*}*/
+.add-book {
+    /*display: none;*/
+    margin-top: -90px;
+}
+
+.book-info {
+    margin-top: -60px;
+    display: none;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*position: fixed;*/
+    /*left: 0px;*/
+    /*top: 0px;*/
+    /*background-color: black;*/
+}
+
+.lend-button {
+    /*display: none;*/
+    margin-bottom: 10px;
+}
+
+.unavailable-button {
+    display: none;
+    background-color: gray !important;
+    border: gray !important;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 576px) {
+
 }
 
 @media only screen and (min-width: 768px) {
-    /*nav .container {*/
-    /*    width: 80%;*/
-    /*}*/
-    /*section .container {*/
-    /*    width: 60%;*/
-    /*}*/
-    /*.nav {*/
-    /*    padding: 20px 0 20px 0;*/
-    /*}*/
-    /*.description-container {*/
-    /*    padding: 0 0 0 9px;*/
-    /*}*/
+
     .stars {
         padding-top: 0px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    /*nav .container {*/
-    /*    width: 70%;*/
-    /*}*/
-    /*.nav {*/
-    /*    padding: 20px 0 20px 0;*/
-    /*}*/
-    /*.description-container {*/
-    /*    padding: 0 0 0 20px;*/
-    /*}*/
+
 }
 
 @media only screen and (min-width: 1200px) {
-    /*nav .container {*/
-    /*    width: 70%;*/
-    /*}*/
-    /*.dark-mode {*/
-    /*    display: block;*/
-    /*}*/
+
 }
